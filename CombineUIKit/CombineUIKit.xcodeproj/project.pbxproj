@@ -17,6 +17,8 @@
 		5BF770D4293F930400FAA323 /* CombineUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF770D3293F930400FAA323 /* CombineUIKitTests.swift */; };
 		5BF770DE293F930400FAA323 /* CombineUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF770DD293F930400FAA323 /* CombineUIKitUITests.swift */; };
 		5BF770E0293F930400FAA323 /* CombineUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF770DF293F930400FAA323 /* CombineUIKitUITestsLaunchTests.swift */; };
+		5BF770ED293F95E600FAA323 /* TableViewControllerBoots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF770EC293F95E600FAA323 /* TableViewControllerBoots.swift */; };
+		5BF770EF293F961D00FAA323 /* BootCampsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF770EE293F961D00FAA323 /* BootCampsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5BF770D9293F930400FAA323 /* CombineUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF770DD293F930400FAA323 /* CombineUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineUIKitUITests.swift; sourceTree = "<group>"; };
 		5BF770DF293F930400FAA323 /* CombineUIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineUIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BF770EC293F95E600FAA323 /* TableViewControllerBoots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerBoots.swift; sourceTree = "<group>"; };
+		5BF770EE293F961D00FAA323 /* BootCampsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootCampsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				5BF770B9293F930200FAA323 /* AppDelegate.swift */,
 				5BF770BB293F930200FAA323 /* SceneDelegate.swift */,
 				5BF770BD293F930200FAA323 /* ViewController.swift */,
+				5BF770EC293F95E600FAA323 /* TableViewControllerBoots.swift */,
+				5BF770EE293F961D00FAA323 /* BootCampsViewModel.swift */,
 				5BF770BF293F930200FAA323 /* Main.storyboard */,
 				5BF770C5293F930400FAA323 /* Assets.xcassets */,
 				5BF770C7293F930400FAA323 /* LaunchScreen.storyboard */,
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF770ED293F95E600FAA323 /* TableViewControllerBoots.swift in Sources */,
 				5BF770C4293F930200FAA323 /* CombineUIKit.xcdatamodeld in Sources */,
 				5BF770BE293F930200FAA323 /* ViewController.swift in Sources */,
 				5BF770BA293F930200FAA323 /* AppDelegate.swift in Sources */,
 				5BF770BC293F930200FAA323 /* SceneDelegate.swift in Sources */,
+				5BF770EF293F961D00FAA323 /* BootCampsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

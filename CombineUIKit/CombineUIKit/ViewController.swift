@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    //BOTON
+    @IBAction func loadData(_ sender: Any) {
+        //cargamos el tableViewController
+        self.navigationController?.pushViewController(TableViewControllerBoots(), animated: true)
+    }
 }
 
